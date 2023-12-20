@@ -5,45 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ali's Netflix</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <!-- Headern Section -->
-
-    <!-- Mein Section -->
-    <main>
-        <div class="nav">
-            <nav>
-                <img src="assets/images/logo.svg" alt="Logo" width="150">
-                <div class="nav-buttons ">
-                    <button class="btn">English</button>
-                    <button class="btn btn-red mt-20">Sign In</button>
-                </div>
-            </nav>
-        </div>
-        
-
-
-
+    <div class="main">
+        <nav>
+            <span><img src="assets/images/logo.svg" alt="logo" width="150"></span>
+            <div class="buttons">
+                <select name="Language" id="lang" class="btn">
+                    <option value="Eng">English</option>
+                    <option value="Urdu">Urdu</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="US">US</option>
+                </select>
+                <button class="btn">Sign In</button>
+            </div>
+            <div class="nav-icon">&#9776;</div>
+        </nav>
         <div class="box"></div>
-        <div class="hero">
-            <div>Unlimited movies, TV shows, and more</div>
-            <div>Watch anywhere. Cancel anytime.</div>
-            <div>Ready to watch? Enter your email to create or restart your membership.</div>
-            <div class="hero-email">
+        <div class="main-content">
 
-                <input type="email" placeholder="Email Address">
-                <button class="btn btn-red">Get Started </button>
+            <div class="hero">
+                <div>Unlimited movies, TV shows, and more</div>
+                <div>Watch anywhere. Cancel anytime.</div>
+                <div>Ready to watch? Enter your email to create or restart your membership.</div>
+            </div>
+            <div class="hero-search">
+                <input type="text" placeholder="Email Address">
+                <a href="ali.html" class="btn"> Get Started &gt;</a>
             </div>
         </div>
 
-        
-
-    </main>
-    <!-- Footer -->
-    <footer></footer>
+    </div>
+    <div class="separation"></div>
+    <section class="boxes">
+        <div class="b1">
+            <div class="text"></div>
+            <div class="image"></div>
+        </div>
+    </section>
+    
 </body>
-<script src="js/script.js"></script>
 
 </html>
